@@ -32,7 +32,7 @@ All = 1000
 Forward = 0
 Backward = 1
 
-RGB_LED_PIN = pin13
+RGB_LED_PIN = pin8
 
 
 flag = 0
