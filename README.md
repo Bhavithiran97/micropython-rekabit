@@ -1,5 +1,5 @@
 ## Music Bit
- - EDU:BIT's built-in piezo buzzer works with the default music module that comes with 	  MicroPython on the BBC micro:bit.
+ - REKA:BIT's built-in piezo buzzer works with the default music module that comes with 	  MicroPython on the BBC micro:bit.
  - Use `import music` at the top of your program
 
 Play built-in melodies
@@ -18,7 +18,7 @@ music.play(tune)
 Find more information about music MicroPython module here: [https://microbit-micropython.readthedocs.io/en/latest/music.html](https://microbit-micropython.readthedocs.io/en/latest/music.html)
 
 ***Add these lines for the following modules***
- - Use `from edubit import *` at the top of your program
+ - Use `from rekabit import *` at the top of your program
  - Use `init()` inside a `while True` loop to monitor the power switch and reset microbit when power cycled.
 
 
@@ -26,7 +26,7 @@ Find more information about music MicroPython module here: [https://microbit-mic
 
 Run Motor 1 forward at 50% speed when button A is pressed, brake the motor when button B is pressed.
 ```python
-from edubit import *
+from rekabit import *
 while True:
 	init()
 	if button_a.is_pressed():
@@ -39,7 +39,7 @@ while True:
 
 Rotate Servo 1 to 0 degree when button A is pressed, rotate Servo 1 to 180 degrees when button B is pressed, disable Servo 1 when button A+B pressed
 ```python
-from edubit import *
+from rekabit import *
 while True:
 	init()
 	if button_a.is_pressed() and button_b.is_pressed():
@@ -50,111 +50,18 @@ while True:
 		sets_servo_position(S1, position=180 )
 ```
 
-## Traffic Light Bit
-
-Blink the all LEDs
-```python
-from edubit import *
-while True:
-	init()
-	set_led(All, 0)
-	sleep(1000)
-	set_led(All, 1)
-	sleep(1000)
-```
-Show running light on the LEDs.
-```python
-from edubit import *
-while True:
-	init()
-	set_led(Red, 1)
-	set_led(Yellow, 0)
-	set_led(Green, 0)
-	sleep(200)
-	set_led(Red, 0)
-	set_led(Yellow, 1)
-	set_led(Green, 0)
-	sleep(200)
-	set_led(Red, 0)
-	set_led(Yellow, 0)
-	set_led(Green, 1)
-	sleep(200)
-```
-## Sound Bit
-
-Show sound level
-```python
-from edubit import *
-while True:
-	init()
-	display.scroll(read_sound_sensor())
-```
-Show sad face when it's too noisy
-```python
-from edubit import *
-while True:
-	init()
-	if read_sound_sensor() > 512:
-		display.show(Image.SAD)
-```
-Count claps
-```python
-from edubit import *
-count = 0
-while True:
-	init()
-	if read_sound_sensor() > 512:
-		count += 1
-		display.scroll(count)
-```
-## Potientio Bit
-
-Show potentiometer value
-```python
-from edubit import *
-while True:
-	init()
-	display.scroll(read_pot_value())
-```
-Show heart shape when the potentiometer is turned to the max
-```python
-from edubit import *
-while True:
-	init()
-	if read_pot_value() > 1000:
-		display.show(Image.HAPPY)
-```
-## IR Bit
-
-Show the IR sensor state
-```python
-from edubit import *
-while True:
-	init()
-	display.scroll(read_IR_sensor())
-```
-Show a target symbol when an object is detected
-```python
-from edubit import *
-while True:
-	init()
-	if is_IR_sensor_triggered():
-		display.show(Image.TARGET)
-	else:
-		display.clear()
-```
 ## Power
 
 Show power input voltage
 ```python
-from edubit import *
+from rekabit import *
 while True:
 	init()
 	display.scroll(read_Vin())
 ```
 Show sad face if the voltage is low
 ```python
-from edubit import *
+from rekabit import *
 while True:
 	init()
 	if is_low_batt():
@@ -162,7 +69,7 @@ while True:
 ```
 Show sad face if over voltage
 ```python
-from edubit import *
+from rekabit import *
 while True:
 	init()
 	if is_overvoltage():
