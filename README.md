@@ -8,11 +8,11 @@ Open Python editor at: [https://python.microbit.org/v/3](https://python.microbit
 
 Download MicroPython module from GitHub: [https://github.com/Bhavithiran97/micropython-rekabit](https://github.com/Bhavithiran97/micropython-rekabit)
 
-Click on the Load/Save button in the editor
+Click on the Project button in the editor
 ![1](https://user-images.githubusercontent.com/34527010/195674941-f7cca26e-814f-4e15-af7b-da824efa4423.png)
 
 
-Click Show File (1) and Add file button
+Click Open and Add file button
 
 ![2](https://user-images.githubusercontent.com/34527010/195674959-892eac9e-5b54-4c1d-b6bf-6d901b2cd8a1.png)
 
