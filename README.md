@@ -2,11 +2,11 @@
 
 **Step 1: Open  Python Editor**
 
-Open Python editor at: [https://python.microbit.org/v/2.0](https://python.microbit.org/v/2.0)
+Open Python editor at: [https://python.microbit.org/v/3](https://python.microbit.org/v/3)
 
 **Step  2:  Add module**
 
-Download MicroPython module from GitHub: [https://github.com/Bhavithiran97/micropython-edubit](https://github.com/Bhavithiran97/micropython-edubit)
+Download MicroPython module from GitHub: [https://github.com/Bhavithiran97/micropython-rekabit](https://github.com/Bhavithiran97/micropython-rekabit)
 
 Click on the Load/Save button in the editor
 ![1](https://user-images.githubusercontent.com/34527010/195674941-f7cca26e-814f-4e15-af7b-da824efa4423.png)
@@ -17,7 +17,7 @@ Click Show File (1) and Add file button
 ![2](https://user-images.githubusercontent.com/34527010/195674959-892eac9e-5b54-4c1d-b6bf-6d901b2cd8a1.png)
 
 
-Add edubit.py to the editor
+Add rekabit.py to the editor
 ![3](https://user-images.githubusercontent.com/34527010/195674968-d6c444c1-cf62-42a9-b3ce-6906e658193f.png)
 
 
