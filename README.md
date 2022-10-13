@@ -9,8 +9,8 @@ Open Python editor at: [https://python.microbit.org/v/2.0](https://python.microb
 Download MicroPython module from GitHub: [https://github.com/Bhavithiran97/micropython-edubit](https://github.com/Bhavithiran97/micropython-edubit)
 
 Click on the Load/Save button in the editor
+![1](https://user-images.githubusercontent.com/34527010/195673850-9ecde70e-60f3-431c-9133-80c03c9de58f.png)
 
-![](https://hackster.imgix.net/uploads/attachments/1164090/6_BsE5rr4ssh.png?auto=compress%2Cformat&w=740&h=555&fit=max)
 
 Click Show File (1) and Add file button
 
