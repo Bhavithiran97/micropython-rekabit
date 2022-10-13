@@ -1,3 +1,25 @@
+**Python  editor  for micro:bit**
+
+**Step 1: Open  Python Editor**
+
+Open Python editor at: [https://python.microbit.org/v/2.0](https://python.microbit.org/v/2.0)
+
+**Step  2:  Add module**
+
+Download MicroPython module from GitHub: [https://github.com/Bhavithiran97/micropython-edubit](https://github.com/Bhavithiran97/micropython-edubit)
+
+Click on the Load/Save button in the editor
+
+![](https://hackster.imgix.net/uploads/attachments/1164090/6_BsE5rr4ssh.png?auto=compress%2Cformat&w=740&h=555&fit=max)
+
+Click Show File (1) and Add file button
+
+![](https://hackster.imgix.net/uploads/attachments/1164091/7_VLW2b9g3nf.png?auto=compress%2Cformat&w=740&h=555&fit=max)
+
+Add edubit.py to the editor
+![16](https://user-images.githubusercontent.com/34527010/92342562-c6b9b580-f0f3-11ea-8cae-24990d6f5fc3.PNG)
+
+
 ## Music Bit
  - REKA:BIT's built-in piezo buzzer works with the default music module that comes with 	  MicroPython on the BBC micro:bit.
  - Use `import music` at the top of your program
