@@ -20,6 +20,53 @@ Click Open and Add file button
 Add rekabit.py to the editor
 ![3](https://user-images.githubusercontent.com/34527010/195674968-d6c444c1-cf62-42a9-b3ce-6906e658193f.png)
 
+## RGB Bit
+
+ - This kit has 2 NeoPixels (WS2812B programmable RGB LEDs)
+   built-in.
+ - REKA:BIT's built-in neopixel works with the default neopixel module that comes with 	  MicroPython on the BBC micro:bit.
+ - Use `import neopixel` at the top of your program
+
+Create a NeoPixel strip at pin P8 with 2 LEDs
+```python
+import neopixel
+np = neopixel.NeoPixel(pin8, 2)
+```
+Show color red on all RGB pixels
+```python
+import neopixel
+np = neopixel.NeoPixel(pin8, 2)
+for LED in range(2):
+	np[LED] = (255,0,0)
+np.show()
+```
+Show specific color on each RGB pixels
+```python
+import neopixel
+np = neopixel.NeoPixel(pin8, 2)
+#rainbow color
+np[0]= 255,0,0    #red
+np[1]= 255,255,0  #yellow
+
+```
+clear all RGB pixels
+```python
+np.clear()
+```
+**RGB values for commonly used colors**
+ - red = 255,0,0
+ - orange = 255,164,0
+ - yellow = 255,255,0
+ - green = 0,255,0
+ - blue = 0,0,255
+ - indigo = 75,0,130
+ - violet = 138,43,226
+ - purple = 255,0,255
+ - white = 255,255,255
+ - black = 0,0,0
+
+Find more information about Neopixel's MicroPython module here: [https://microbit-micropython.readthedocs.io/en/latest/neopixel.html#module-neopixel](https://microbit-micropython.readthedocs.io/en/latest/neopixel.html#module-neopixel)
+
 
 ## Music Bit
  - REKA:BIT's built-in piezo buzzer works with the default music module that comes with 	  MicroPython on the BBC micro:bit.
