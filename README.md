@@ -9,15 +9,16 @@ Open Python editor at: [https://python.microbit.org/v/2.0](https://python.microb
 Download MicroPython module from GitHub: [https://github.com/Bhavithiran97/micropython-edubit](https://github.com/Bhavithiran97/micropython-edubit)
 
 Click on the Load/Save button in the editor
-![1](https://user-images.githubusercontent.com/34527010/195673850-9ecde70e-60f3-431c-9133-80c03c9de58f.png)
+![1](https://user-images.githubusercontent.com/34527010/195674941-f7cca26e-814f-4e15-af7b-da824efa4423.png)
 
 
 Click Show File (1) and Add file button
 
-![](https://hackster.imgix.net/uploads/attachments/1164091/7_VLW2b9g3nf.png?auto=compress%2Cformat&w=740&h=555&fit=max)
+![2](https://user-images.githubusercontent.com/34527010/195674959-892eac9e-5b54-4c1d-b6bf-6d901b2cd8a1.png)
+
 
 Add edubit.py to the editor
-![16](https://user-images.githubusercontent.com/34527010/92342562-c6b9b580-f0f3-11ea-8cae-24990d6f5fc3.PNG)
+![3](https://user-images.githubusercontent.com/34527010/195674968-d6c444c1-cf62-42a9-b3ce-6906e658193f.png)
 
 
 ## Music Bit
