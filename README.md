@@ -1,4 +1,5 @@
 
+
 **Python  editor  for micro:bit**
 
 **Step 1: Open  Python Editor**
@@ -88,9 +89,9 @@ music.play(tune)
 ```
 Find more information about music MicroPython module here: [https://microbit-micropython.readthedocs.io/en/latest/music.html](https://microbit-micropython.readthedocs.io/en/latest/music.html)
 
-# ***Add these lines for the following modules*** :warning:
+# :warning: ***Add these lines for the following modules*** 
 
-## Use `from rekabit import *` at the top of your program - Use `init()` inside a `while True` loop to monitor the power switch and reset microbit when power cycled.
+Use `from rekabit import *` at the top of your program - Use `init()` inside a `while True` loop to monitor the power switch and reset microbit when power cycled.
 
 ## Digital IO
 
