@@ -99,6 +99,7 @@ Read digital pin 9
 from rekabit import *
 
 while True:
+    init()
     if pin9.read_digital():
         display.show(Image.HAPPY)
     else:
@@ -110,6 +111,7 @@ Write digital on pin 12
 from rekabit import *
 
 while True:
+    init()
     pin12.write_digital(1)
     sleep(20)
     pin12.write_digital(0)
@@ -124,6 +126,7 @@ Read analog pin 1
 from rekabit import *
 
 while True:
+    init()
     if pin1.read_analog() > 500:
         display.show(Image.HAPPY)
     else:
@@ -134,6 +137,7 @@ Write analog on pin 2
 from rekabit import *
 
 while True:
+    init()
     pin12.write_analog(511)
 ```
 Find more information about analog MicroPython module here: [https://microbit-micropython.readthedocs.io/en/v1.0.1/pin.html#pulse-width-modulation](https://microbit-micropython.readthedocs.io/en/v1.0.1/pin.html#pulse-width-modulation)
