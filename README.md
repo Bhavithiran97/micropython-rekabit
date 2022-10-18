@@ -20,7 +20,7 @@ Click Open and Add file button
 Add rekabit.py to the editor
 ![3](https://user-images.githubusercontent.com/34527010/195674968-d6c444c1-cf62-42a9-b3ce-6906e658193f.png)
 
-## RGB Bit
+## Neopixel
 
  - This kit has 2 NeoPixels (WS2812B programmable RGB LEDs)
    built-in.
@@ -68,7 +68,7 @@ np.clear()
 Find more information about Neopixel's MicroPython module here: [https://microbit-micropython.readthedocs.io/en/latest/neopixel.html#module-neopixel](https://microbit-micropython.readthedocs.io/en/latest/neopixel.html#module-neopixel)
 
 
-## Music Bit
+## Music
  - REKA:BIT's built-in piezo buzzer works with the default music module that comes with 	  MicroPython on the BBC micro:bit.
  - Use `import music` at the top of your program
 
