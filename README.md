@@ -91,6 +91,51 @@ Find more information about music MicroPython module here: [https://microbit-mic
  - Use `from rekabit import *` at the top of your program
  - Use `init()` inside a `while True` loop to monitor the power switch and reset microbit when power cycled.
 
+## Digital IO
+
+Read digital pin 9
+```python
+from rekabit import *
+
+while True:
+    if pin9.read_digital():
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+```
+
+Write digital on pin 12
+```python
+from rekabit import *
+
+while True:
+    pin12.write_digital(1)
+    sleep(20)
+    pin12.write_digital(0)
+    sleep(480)
+```
+Find more information about analog MicroPython module here: [https://microbit-micropython.readthedocs.io/en/v1.0.1/pin.html#module-microbit](https://microbit-micropython.readthedocs.io/en/v1.0.1/pin.html#module-microbit)
+
+## Analog IO
+
+Read analog pin 1
+```python
+from rekabit import *
+
+while True:
+    if pin1.read_analog() > 500:
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+```
+Write analog on pin 2
+```python
+from rekabit import *
+
+while True:
+    pin12.write_analog(511)
+```
+Find more information about analog MicroPython module here: [https://microbit-micropython.readthedocs.io/en/v1.0.1/pin.html#pulse-width-modulation](https://microbit-micropython.readthedocs.io/en/v1.0.1/pin.html#pulse-width-modulation)
 
 ## DC Motors
 
