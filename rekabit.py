@@ -60,7 +60,7 @@ def i2cWrite(register,data):
     i2c.write(I2C_ADDRESS,buffer)
 
 
-def init():
+def power_monitor():
     global flag
     global oldPowerState
 
