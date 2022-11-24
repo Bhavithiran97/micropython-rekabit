@@ -223,6 +223,7 @@ while True:
 		display.show(Image.SAD)
 ```
 **Reset REKA:BIT**
+
 Add `power_monitor()` function in a *while loop* to reset the REKA:BIT. 
 The motors will not be reset after toggling if this function is not used because the PIC microcontroller in REKA:BIT will not reset without this function.
 ```python
