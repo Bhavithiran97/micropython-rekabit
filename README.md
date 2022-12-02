@@ -224,8 +224,10 @@ while True:
 ```
 **Reset REKA:BIT**
 
-Add `power_monitor()` function in a *while loop* to reset the REKA:BIT. 
-The motors will not be reset after toggling if this function is not used because the PIC microcontroller in REKA:BIT will not reset without this function.
+Add `power_monitor()` function in a *while loop* to monitor the power state of REKA:BIT. The motors and micro:bit will be reset when:
+
+ - Power switch is turned off and turned on while both  DC barrel plug and micor B is connected
+ - DC barrel plug is plugged out and plugged in while micro B cable is connected to micro:bit
 ```python
 from rekabit import *
 
