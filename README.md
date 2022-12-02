@@ -231,9 +231,22 @@ Add `power_monitor()` function in a *while loop* to monitor the power state of R
 ```python
 from rekabit import *
 
+#Move backward at half speed
+run_motor(Motor_M2, Direction_Backward, speed=128) 
+sleep(1000)
+
+#Brake motor
+brake_motor(Motor_M2)
+sleep(1000)
+
 while True:
-	power_monitor()
-	run_motor(Motor_All, Direction_Forward, speed=255) 
-	sleep(1000) 
+    power_monitor()
+	#Move forward at full speed
+    run_motor(Motor_M1, Direction_Forward, speed=255) 
+    sleep(1000)
+
+    #Brake motor
+    brake_motor(Motor_M1)
+    sleep(1000)
 ```
 
